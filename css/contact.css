@@ -1,0 +1,189 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    height: 800px;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    background-attachment: scroll;
+
+
+}
+
+
+.class {
+    width: 90%;
+    height: 100px;
+    margin: 20px 55px;
+    color: white;
+    background-color: rgb(1, 1, 55);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+
+
+}
+
+
+.class ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+
+.class ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+.destt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+
+.dest {
+    font-size: 30px;
+    /* padding-left: 40px; */
+}
+
+
+.travel {
+    font-size: 10px;
+    /* text-transform: uppercase; */
+}
+
+
+.search {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(250, 51, 51);
+    border: none;
+}
+
+.text {
+    font-size: 200px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    font-weight: 200;
+    color: rgba(154, 95, 236, 0.5);
+    justify-content: center;
+    /* margin: 200px 230px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.combine {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.item {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.sec {
+    background: url('../img/ag.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: bottom;
+    width: 90%;
+    margin: auto ;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.adv {
+    font-size: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    text-align: center;
+    padding: 35px;
+}
+
+
+.damm {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    color: white;
+
+
+}
+
+
+.firstitem input,
+select {
+    height: 50px;
+    width: 250px;
+    /* opacity: 10%; */
+    /* cursor: pointer; */
+    border: 1px solid gray;
+}
+
+
+.firstitem select {
+    cursor: pointer;
+}
+
+
+
+.seconditem select {
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+.find {
+    width: 120px;
+    height: 50px;
+    margin: 18px;
+    color: white;
+    background-color: rgb(203, 5, 5);
+    border: none;
+    cursor: pointer;
+}
+
+
+.find:hover {
+    background-color: rgb(227, 100, 100);
+}

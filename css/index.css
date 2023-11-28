@@ -58,13 +58,13 @@
 
 .dest {
     font-size: 30px;
-    /* padding-left: 40px; */
+
 }
 
 
 .travel {
     font-size: 10px;
-    /* text-transform: uppercase; */
+
 }
 
 
@@ -74,6 +74,15 @@
     color: white;
     background-color: rgb(250, 51, 51);
     border: none;
+}
+
+.combine {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .text {
@@ -93,14 +102,6 @@
 }
 
 
-.combine {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
 
 
 .item {
@@ -117,7 +118,6 @@
     background-size: cover;
     background-position: bottom;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,33 +297,26 @@ select {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .fi {
     /* height: 400px; */
     width: 470px;
-    background-color: rgba(249, 76, 76,.6);
+    background-color: rgba(249, 76, 76, .6);
     /* opacity: .8; */
     z-index: 1;
     padding: 40px 0px;
 }
 
-.mald
-{
+.mald {
     text-transform: uppercase;
     display: flex;
     padding-left: 30px;
 
 }
 
-
 .percentage {
 
     font-size: 90px;
     font-weight: lighter;
-
-
-    
 }
 
 .last {
@@ -351,7 +344,7 @@ select {
     align-items: center;
     flex-direction: column;
     position: relative;
-   
+
 }
 
 .daytrip {
@@ -361,28 +354,16 @@ select {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* padding-top: 90px; */
 
-
-
 }
 
 .day {
     font-size: 30px;
     display: flex;
- 
-  
-
-
 }
 
 .trip {
     font-size: 10px;
-
-    
-
-
 }
-
-
 
 .popular {
     text-align: center;
@@ -417,12 +398,7 @@ select {
     background: url('../img/h.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white; */
-    /* display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+    
 }
 
 
@@ -430,48 +406,28 @@ select {
     background: url('../img/i.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white; */
-    /* display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+    
 }
 
 #ir {
     background: url('../img/j.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white; */
-    /* display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+  
 }
 
 #th {
     background: url('../img/k.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+  
 }
 
 #cr {
     background: url('../img/l.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+ 
 }
 
 
@@ -479,12 +435,7 @@ select {
     background: url('../img/m.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+   
 }
 
 
@@ -492,12 +443,7 @@ select {
     background: url('../img/dg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px; 
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;  */
+    
 }
 
 
@@ -505,12 +451,7 @@ select {
     background: url('../img/r.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 200px;
-    width: 300px;
-    color: white; */
-    /* display: flex;
-    align-items: flex-end;
-    justify-content: flex-start; */
+    
 }
 
 .app {
@@ -525,21 +466,20 @@ select {
 
 }
 
-.all{
+.all {
     display: flex;
     justify-content: flex-start;
     align-self: flex-end;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 0px 00px 30px 30px;
-    
 }
 
-.f{
+.f {
     font-size: 15px;
 }
 
-.g{
-    font-size: 25px;  
+.g {
+    font-size: 25px;
 }
 
 .special {
@@ -613,7 +553,7 @@ select {
     background-size: cover;
 }
 
-.old{
+.old {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -622,12 +562,12 @@ select {
 
 }
 
-.vi{
+.vi {
     font-size: 25px;
 
 }
 
-.ba{
+.ba {
     font-size: 40px;
 }
 
@@ -667,7 +607,7 @@ select {
     color: white;
 }
 
-#email::placeholder{
+#email::placeholder {
     color: white;
 }
 
@@ -678,4 +618,173 @@ select {
     height: 60px;
     border: none;
     font-size: 20px;
+}
+
+
+
+@media(max-width:480px) {
+    .container {
+        height: 400px;
+        width: 651px;
+        /* top: 0%;  */
+    }
+
+    .class {
+
+        width: 570px;
+        margin: 40px;
+        align-items: center;
+         
+
+    }
+
+    .class ul,.search {
+        display: none;
+    }
+
+    .dest {
+        font-size: 15px;
+    }
+
+    .travel {
+        font-size: 5px;
+    }
+
+
+
+    .text {
+        font-size: 90px;
+
+    }
+
+    .item {
+        font-size: 35px;
+    }
+
+    .sec {
+        width: 651px;
+        height: 450px;
+
+    }
+
+
+
+    .adv {
+        font-size: 35px;
+
+    }
+
+    .damm {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        background: transparent;
+    }
+
+    .firstitem input,
+    select {
+        height: 25px;
+        background: transparent;
+        width: 100%;
+        color: gray;
+    }
+
+    .seconditem select {
+        width: 100%;
+    }
+
+    .find {
+        margin: 0px;
+        height: 30px;
+    }
+
+    .toptake {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .top,.in,.spe {
+        font-size: 27px;
+        justify-content: center;
+    }
+
+    .take,.a,.these {
+        font-size: 15px;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+
+    }
+
+    .ac,
+    .ace,
+    .acer,
+    .acerr {
+        width: 572px;
+        
+    
+    }
+
+    .back {
+        display: flex;
+        flex-direction: column;
+        width: 651px;
+    }
+
+    .fi {
+        width: 570px;
+
+    }
+
+    .mald {
+        justify-content: center;
+    }
+
+    .vid{
+        width: 651px;
+    }
+
+    .picture1{
+        display: flex;
+        flex-direction: column;
+        width: 384px;
+      
+        
+    }
+    
+    #tu,#ha,#ir,#th,#cr,#ba,#fr,#vi{
+        width: 571px;
+        
+    }
+    .new{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+   
+     #visit,#sun,#cul,#iti{
+        width: 610px;
+    } 
+
+    .sub{
+        width:651px ;
+    }
+    .scrib{
+        font-size: 35px;
+    }
+    .emailsub{
+        display: flex;
+        flex-direction: column;
+    }
+    #email{
+        width: 515px;
+    }
+   
+
+
 }
