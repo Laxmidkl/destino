@@ -544,6 +544,9 @@ select {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hamb{
+    display: none;
+}
 
 
 #iti {
@@ -566,6 +569,7 @@ select {
     font-size: 25px;
 
 }
+
 
 .ba {
     font-size: 40px;
@@ -666,6 +670,11 @@ select {
         height: 450px;
 
     }
+    .hamb{
+        display: flex;
+        color: white;
+        padding-right: 30px;
+    }
 
 
 
@@ -698,9 +707,10 @@ select {
         height: 30px;
     }
 
-    .toptake {
+    .toptake,.special {
         justify-content: center;
         align-items: center;
+            width: 426px;
     }
 
 
@@ -747,6 +757,11 @@ select {
     .vid{
         width: 651px;
     }
+    .popular{
+        width: 426px;
+      
+    }
+    
 
     .picture1{
         display: flex;
