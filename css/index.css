@@ -715,7 +715,7 @@ select {
         justify-content: center;
         align-items: center;
         padding: 0px;
-        /* width: 426px; */
+        width: 583px; 
     }
 
 
@@ -738,7 +738,7 @@ select {
         width: 650px;
 
     }
-    
+
 
     .ac,
     .ace,
@@ -770,7 +770,7 @@ select {
 
     .popular {
         /* display: none; */
-        width: 100%;
+        width: 572px;
         padding: 0px;
 
     }
@@ -805,7 +805,6 @@ select {
         flex-direction: column;
         position: relative;
         left: 40px
-
     }
 
 
