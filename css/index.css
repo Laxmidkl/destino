@@ -754,7 +754,7 @@ select {
     }
 
     .fi {
-        width: 570px;
+        width: 569px;
 
     }
 
@@ -795,6 +795,8 @@ select {
     .new {
         display: flex;
         flex-direction: column;
+        position: relative;
+        left: 40px
 
     }
 
@@ -803,7 +805,7 @@ select {
     #sun,
     #cul,
     #iti {
-        width: 610px;
+        width: 570px;
     }
 
     .sub {
