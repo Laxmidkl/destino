@@ -714,8 +714,8 @@ select {
     .special {
         justify-content: center;
         align-items: center;
-        padding: 0px;
-        width: 583px; 
+        padding: 12px;
+        width: 592px; 
     }
 
 
@@ -770,8 +770,8 @@ select {
 
     .popular {
         /* display: none; */
-        width: 572px;
-        padding: 0px;
+        width: 592px;
+        padding: 12px;
 
     }
 
