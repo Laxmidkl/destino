@@ -779,7 +779,7 @@ select {
     .picture1 {
         display: flex;
         flex-direction: column;
-        width: 150%;
+        width: 123%;
         position: relative;
         left: 40px;
 
