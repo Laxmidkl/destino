@@ -398,7 +398,7 @@ select {
     background: url('../img/h.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 
@@ -406,28 +406,28 @@ select {
     background: url('../img/i.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 #ir {
     background: url('../img/j.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 }
 
 #th {
     background: url('../img/k.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 }
 
 #cr {
     background: url('../img/l.jpg');
     background-repeat: no-repeat;
     background-size: cover;
- 
+
 }
 
 
@@ -435,7 +435,7 @@ select {
     background: url('../img/m.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
 
@@ -443,7 +443,7 @@ select {
     background: url('../img/dg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 
@@ -451,7 +451,7 @@ select {
     background: url('../img/r.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .app {
@@ -544,7 +544,8 @@ select {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.hamb{
+
+.hamb {
     display: none;
 }
 
@@ -638,11 +639,12 @@ select {
         width: 570px;
         margin: 40px;
         align-items: center;
-         
+
 
     }
 
-    .class ul,.search {
+    .class ul,
+    .search {
         display: none;
     }
 
@@ -670,7 +672,8 @@ select {
         height: 450px;
 
     }
-    .hamb{
+
+    .hamb {
         display: flex;
         color: white;
         padding-right: 30px;
@@ -707,19 +710,24 @@ select {
         height: 30px;
     }
 
-    .toptake,.special {
+    .toptake,
+    .special {
         justify-content: center;
         align-items: center;
-            width: 426px;
+        width: 426px;
     }
 
 
-    .top,.in,.spe {
+    .top,
+    .in,
+    .spe {
         font-size: 27px;
         justify-content: center;
     }
 
-    .take,.a,.these {
+    .take,
+    .a,
+    .these {
         font-size: 15px;
     }
 
@@ -735,8 +743,8 @@ select {
     .acer,
     .acerr {
         width: 572px;
-        
-    
+
+
     }
 
     .back {
@@ -754,52 +762,67 @@ select {
         justify-content: center;
     }
 
-    .vid{
+    .vid {
         width: 651px;
     }
-    .popular{
+
+    .popular {
         width: 426px;
-      
-    }
-    
 
-    .picture1{
-        display: flex;
-        flex-direction: column;
-        width: 384px;
-      
-        
-    }
-    
-    #tu,#ha,#ir,#th,#cr,#ba,#fr,#vi{
-        width: 571px;
-        
-    }
-    .new{
-        display: flex;
-        flex-direction: column;
-        
     }
 
-   
-     #visit,#sun,#cul,#iti{
+
+    .picture1 {
+        display: flex;
+        flex-direction: column;
+        width: 382px;
+
+
+    }
+
+    #tu,
+    #ha,
+    #ir,
+    #th,
+    #cr,
+    #ba,
+    #fr,
+    #vi {
+        width: 570px;
+
+    }
+
+    .new {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    #visit,
+    #sun,
+    #cul,
+    #iti {
         width: 610px;
-    } 
-
-    .sub{
-        width:651px ;
     }
-    .scrib{
+
+    .sub {
+        width: 651px;
+    }
+
+    .scrib {
         font-size: 35px;
     }
-    .emailsub{
+
+    .emailsub {
         display: flex;
         flex-direction: column;
     }
-    #email{
+
+    #email {
         width: 515px;
     }
-   
+
 
 
 }
